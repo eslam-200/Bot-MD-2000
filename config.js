@@ -17,8 +17,8 @@ global.owner = [
   ['201145624848', '𝗦𝗔𝗬𝗘𝗗-𝗦𝗛𝗔𝗪𝗔𝗭𝗔', true]
 ];
 
-global.ownername = '𝚂𝙰𝚈𝙴𝙳-𝚂𝙷𝙰𝚆𝙰𝚉𝙰';
-global.ownernumber = '201145624848';
+global.ownername = 'MIDO-𝚂𝙷𝙰𝚆𝙰𝚉𝙰';
+global.ownernumber = '249111230420';
 global.myid = '201145624848@s.whatsapp.net';
   
 global.suittag = ['201145624848', '201204885212'];
