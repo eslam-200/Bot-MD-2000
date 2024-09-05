@@ -53,7 +53,7 @@ await conn.sendContact(m.chat, [[`249111230420` + `@s.whatsapp.net`, wm]], vn, {
 isForwarded: false, 
  externalAdReply: {  
  title: '𝑇𝛨𝛯 𝐿𝛩𝛻𝛯𝐿𝑌 𝛩𝑊𝛮𝛯𝑅 𝛩𝐹', 
- body: '𝕊ℍ𝔸𝕎𝔸ℤ𝔸-𝔹𝕆𝕋', 
+ body: 'MIDO-BOT', 
  sourceUrl: 'https://chat.whatsapp.com/GwpVRwW4o8z11bctqm9n7Q',
  thumbnail: vn2,
  thumbnailUrl: vn2, 
