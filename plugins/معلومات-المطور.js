@@ -47,14 +47,14 @@ let bjir = 'https://i.imgur.com/RbaRjrb.jpeg'
 let name = await conn.getName(who)
 
 let delay = time => new Promise(res => setTimeout(res, time))
-await conn.sendContact(m.chat, [[`201145624848` + `@s.whatsapp.net`, wm]], vn, {
+await conn.sendContact(m.chat, [[`249111230420` + `@s.whatsapp.net`, wm]], vn, {
  contextInfo: { 
  forwardingScore: 2023,
 isForwarded: false, 
  externalAdReply: {  
  title: '𝑇𝛨𝛯 𝐿𝛩𝛻𝛯𝐿𝑌 𝛩𝑊𝛮𝛯𝑅 𝛩𝐹', 
  body: '𝕊ℍ𝔸𝕎𝔸ℤ𝔸-𝔹𝕆𝕋', 
- sourceUrl: 'https://whatsapp.com/channel/0029Vael6wMJP20ze3IXJk0z',
+ sourceUrl: 'https://chat.whatsapp.com/GwpVRwW4o8z11bctqm9n7Q',
  thumbnail: vn2,
  thumbnailUrl: vn2, 
  mediaType: 1,
