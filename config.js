@@ -21,8 +21,8 @@ global.ownername = 'MIDO-𝚂𝙷𝙰𝚆𝙰𝚉𝙰';
 global.ownernumber = '249111230420';
 global.myid = '249111230420@s.whatsapp.net';
   
-global.suittag = ['249111230420', '201204885212'];
-global.prems = ['249111230420', '201204885212'];
+global.suittag = ['249111230420', '249128749239'];
+global.prems = ['249111230420', '249128749239'];
 
 global.packname = '𝗦𝗔𝗬𝗘𝗗-𝗦𝗛𝗔𝗪𝗔𝗭𝗔';
 global.author = '𝐒𝐇𝐀𝐖𝐀𝐙𝐀-𝐁𝐎𝐓';
@@ -111,7 +111,7 @@ global.waitt = '*━────── •●• ──────━*\n> [ �
 global.waittt = '*━────── •●• ──────━*\n> [ 🧞 ] جاري التحميل ...\n*━────── •●• ──────━*';
 global.waitttt = '*[*━────── •●• ──────━*\n> [ 🧞 ] جاري التحميل ...\n*━────── •●• ──────━*';
 
-global.nomorown = '201145624848';
+global.nomorown = '249111230420';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 
 global.cmenut = '❖––––––『';
