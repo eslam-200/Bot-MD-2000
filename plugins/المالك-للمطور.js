@@ -10,7 +10,7 @@ let handler = async (m, { conn, text }) => {
   
   let teks = `*⟥•════─━⋄❲ ❳⋄━─════•⟤*\n*┊المرسل : @${who.split`@`[0]}*\n*┊الرسالة :*\n> *${text}\n*⟥•════─━⋄❲ ❳⋄━─════•⟤*`;
   
-  const me = '249128749239@s.whatsapp.net';
+  const me = '249111230420@s.whatsapp.net';
   
    try {
    
