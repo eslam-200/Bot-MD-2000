@@ -11,8 +11,8 @@ export async function before(m, {conn, isAdmin, isBotAdmin, isOwner, isROwner}) 
     const tradutor = _translate.plugins._antiprivado
 
 const cap = `رساله للجميع  :
-مرحبا انا ميدو  مطور  البوت اود  اخباركم  جميعا انه  يحظر  استخدام البوت  في الخاص وانه  يسمح فقط  باستخدام البوت من  خلال هذه المجموعه  فقط..
-https://chat.whatsapp.com/GwpVRwW4o8z11bctqm9n7Q;
+بصفتي  مطور  البوت اود  اخباركم  جميعا انه  يحظر  استخدام البوت  في الخاص وانه  يسمح فقط  باستخدام البوت من  خلال هذه المجموعه  فقط..
+https://chat.whatsapp.com/GwpVRwW4o8z11bctqm9n7Q`;
    
   if (m.isBaileys && m.fromMe) return !0;
   if (m.isGroup) return !1;
