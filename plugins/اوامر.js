@@ -7,7 +7,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     let wib = moment.tz('Africa/Cairo').format('HH:mm:ss');
     let date = new Date().toLocaleDateString('en-EG', { day: 'numeric', month: 'long', year: 'numeric' });
 
-    await conn.sendMessage(m.chat, { react: { text: '🌷', key: m.key } });
+    await conn.sendMessage(m.chat, { react: { text: '📂', key: m.key } });
 
     // قائمة عناوين URL للصور
     const images = [
@@ -33,10 +33,10 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 ── • ◈ • ──
 
 ┏━━🤖 *『』ī معلومات البوت ī《* 🤖━━┓
-┃ ✨  *اسـم البـوت: MIDO 𝑩𝒐𝒕*
+┃ ✨  *اسـم البـوت: SENKU 𝑩𝒐𝒕*
 ┃ 💻  *المـنصـة:* TOYSTACK💀 
-┃ 📍  *رقم المطور +249111230420*
-┃ 📚  *اسم المطور:MOHAMMED ADEL』* 
+┃ 📍  *رقم المطور: +212658594530*
+┃ 📚  *اسم المطور:AHMED ALIGUEد』* 
 ┗━━━━━━━━━━━━━┛
 
 ┏━━⏰ *『』التاريخ والوقت《* ⏰━┓
@@ -143,7 +143,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
                                 buttonParamsJson: JSON.stringify({
                                     display_text: "『』القناة الخاصة بالبوت《",
                                     url: "https://whatsapp.com/channel/0029VaSWiq20bIdrePlzmD3v",
-                                    merchant_url: "https://whatsapp.com/channel/0029Vaich7vLdQeUgMMBPc13"
+                                    merchant_url: "https://whatsapp.com/channel/0029VaSWiq20bIdrePlzmD3v"
                                 })
                             }
                         ]
