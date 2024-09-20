@@ -22,7 +22,7 @@ handler.all = async function(m) {
   if (/^بوت|بوتي|البوت$/i.test(m.text) && !chat.isBanned) {
     conn.sendPresenceUpdate('recording', m.chat);
     
-    m.conn.sendMessage(m.chat, {text: `*شبيك لبيك سونيك وسكونر بين قديك 🧞*`}, {quoted: fk});
+    m.conn.sendMessage(m.chat, {text: `*شبيك لبيك سونيك وسكونر بين اديك 🧞*`}, {quoted: fk});
     
     m.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: fk});
     
