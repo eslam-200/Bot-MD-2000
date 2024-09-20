@@ -18,73 +18,103 @@ const sounds3 = [
     ];
 const sounds4 = "./media/الصدمه.mp3";
 const sounds5 = "./media/اسمع.mp3";
-const sounds6 = "./media/اقلعي.mp3";
+const sounds6 = "./media/تعال بف.mp3";
+const sounds7 = "./media/العنكبوت.mp3";
+const sounds8 = "./media/قصه.mp3";
+const sounds9 = "./media/يساتر.mp3";
+const sounds10 = "./media/ضحكه.mp3";
+const sounds11 = "./media/عصافير.mp3";
 
   const chat = global.db.data.chats[m.chat];
-  
-    const fk = {
-    'key': {
-      'participants': '0@s.whatsapp.net',
-      'remoteJid': 'status@broadcast',
-      'fromMe': false,
-      'id': 'Halo'
-    },
-    'message': {
-      'contactMessage': {
-        'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
-      }
-    },
-    'participant': '0@s.whatsapp.net'
-  };
 
-  if (/^احا|احيه$/i.test(m.text) && !chat.isBanned && chat.audios) {
+  if (/^احا|احو$/i.test(m.text) && !chat.isBanned) {
 
 const vn = sounds[Math.floor(Math.random() * sounds.length)];
 
  conn.sendPresenceUpdate('recording', m.chat);
     
-m.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'sound.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: fk});
+m.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'sound.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
   
-  } else if (/^شخره|خخ$/i.test(m.text) && !chat.isBanned && chat.audios) {
+  } else if (/^شخره$/i.test(m.text) && !chat.isBanned) {
 
 const vn = sounds2[Math.floor(Math.random() * sounds2.length)];
 
  conn.sendPresenceUpdate('recording', m.chat);
     
-m.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'sound.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: fk});
+m.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'sound.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
 
-} else if (/^ههه|ضحك|😂$/i.test(m.text) && !chat.isBanned && chat.audios) {
+} else if (/^هححححح|هححح|هحححح$/i.test(m.text) && !chat.isBanned) {
 
 const vn = sounds3[Math.floor(Math.random() * sounds3.length)];
 
  conn.sendPresenceUpdate('recording', m.chat);
     
-m.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'sound.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: fk});
+m.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'sound.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
 
-} else if (/^صدمه|تبا|🙂$/i.test(m.text) && !chat.isBanned && chat.audios) {
+} else if (/^صدمه$/i.test(m.text) && !chat.isBanned) {
 
 const vn = sounds4;
 
  conn.sendPresenceUpdate('recording', m.chat);
     
-m.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'sound.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: fk});
+m.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'sound.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
 
-} else if (/^بقولك|قول$/i.test(m.text) && !chat.isBanned && chat.audios) {
+} else if (/^بقولك$/i.test(m.text) && !chat.isBanned) {
 
 const vn = sounds5;
 
  conn.sendPresenceUpdate('recording', m.chat);
     
-m.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'sound.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: fk});
+m.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'sound.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
 
-} else if (/^خد|اقلع|بعبص$/i.test(m.text) && !chat.isBanned && chat.audios) {
+} else if (/^اقلع$/i.test(m.text) && !chat.isBanned) {
 
 const vn = sounds6;
 
  conn.sendPresenceUpdate('recording', m.chat);
     
-m.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'sound.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: fk});
+m.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'sound.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
 
+} else if (/^بحبها|بحبو|دوبتني|مراتي$/i.test(m.text) && !chat.isBanned) {
+
+const vn = sounds7;
+
+ conn.sendPresenceUpdate('recording', m.chat);
+    
+m.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'sound.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
+
+} else if (/^قصه تقف لها الازبار|هيجان$/i.test(m.text) && !chat.isBanned) {
+
+const vn = sounds8;
+
+ conn.sendPresenceUpdate('recording', m.chat);
+    
+m.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'sound.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
+
+} else if (/^انبر|يساتر|ي ساتر$/i.test(m.text) && !chat.isBanned) {
+
+const vn = sounds9;
+
+ conn.sendPresenceUpdate('recording', m.chat);
+    
+m.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'sound.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
+
+  } else if (/^ضحكت|بموت$/i.test(m.text) && !chat.isBanned) {
+
+const vn = sounds10;
+
+ conn.sendPresenceUpdate('recording', m.chat);
+    
+m.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'sound.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
+
+} else if (/^🐦|🐤$/i.test(m.text) && !chat.isBanned) {
+
+const vn = sounds11;
+
+ conn.sendPresenceUpdate('recording', m.chat);
+    
+m.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'sound.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
+          
 }
   return !0;
 };
