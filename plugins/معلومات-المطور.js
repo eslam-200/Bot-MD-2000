@@ -31,14 +31,14 @@ let faketext = {
     remoteJid: 'status@broadcast'
   },
   message: {
-    conversation: 'فلسطين حرة مهما كان الثمن ❤️🧞'
+    conversation: 'اسكونر توينز سونيك ❤️🧞'
   }
 };
 
 let fake = [fakegif, fakecontact, mkey, fakelocation, faketext]
 let vn = fake[Math.floor(Math.random() * fake.length)];
 
-let poster = ['https://telegra.ph/file/ba984d78fa802662438ee.jpg', 'https://telegra.ph/file/0e22282b399e105776618.jpg', 'https://telegra.ph/file/5e6456d22a8264b08a2bc.jpg', 'https://telegra.ph/file/996f53288a1e2f4f35812.jpg']
+let poster = ['https://qu.ax/kied.jpg', 'https://qu.ax/kied.jpg', 'https://qu.ax/kied.jpg', 'https://qu.ax/kied.jpg']
 let vn2 = poster[Math.floor(Math.random() * poster.length)];
 
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
