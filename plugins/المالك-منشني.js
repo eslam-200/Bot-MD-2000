@@ -20,8 +20,8 @@ handler.all = async function (m, conn) {
    
     const vn = './media/الكلب.mp3'; //src sounds
     const vn2 = './media/سقيتك كاس.mp3'; 
-    const vn3 = 'https://telegra.ph/file/b007da23c721227452f55.mp4';
-    const vn4 = 'https://telegra.ph/file/710882610845fb644b99d.mp4';
+    const vn3 = 'https://qu.ax/kied.jpg';
+    const vn4 = 'https://qu.ax/kied.jpg';
 
     const txt = '*مرات مطورى القمر 🧸❤️*';
     const txt1 = `*عاوز اي من مطوري ي @${m.sender.split('@')[0]} 🧞*`;
