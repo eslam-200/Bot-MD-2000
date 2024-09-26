@@ -25,6 +25,7 @@ let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
 let taguser =  @  + m.sender.split("@s.whatsapp.net")[0]
 let str = `
+
 *▫️📆تاريخ:* ${date}
 *▫️🕛وقت نشط:* ${uptime}
 *▫️⚡المستخدمين:* ${rtotalreg}
@@ -35,8 +36,6 @@ let str = `
 *▫️👾عملات:* ${money}
 *▫️🪙الرموز:* ${joincount}
 *▫️🎟️بريم:* ${user.premiumTime > 0 ?  ✅  : (isPrems ?  ✅  :  ❌ ) ||   }
-
-
 *▫️  اسم البوت , 𝒎𝒆𝒈𝒐_𝒃𝒐𝒕*
 *▫️ حط قبل كل امر*  (.)*
 *▫️ اســم الـمطور  𝙢,𝙚,𝙜,𝙤, ❦︎*
