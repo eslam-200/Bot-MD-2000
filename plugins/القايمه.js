@@ -7,7 +7,6 @@ function clockString(ms) {
     let s = Math.floor(ms / 1000) % 60;
     return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':');
 }
-
 let handler = async (m, { conn, args, usedPrefix, command }) => {
     const _uptime = process.uptime() * 1000;
     const uptime = clockString(_uptime);
@@ -20,28 +19,22 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     let date = new Date().toLocaleDateString('en-EG', { day: 'numeric', month: 'long', year: 'numeric' });
     let { role, premium, money, level, limit, exp, lastclaim, registered, regTime, age, warn, credit } = global.db.data.users[who];
     await conn.sendMessage(m.chat, { react: { text: '📂', key: m.key } });
-
-    // قائمة عناوين URL للصور
+// قائمة عناوين URL للصور
     const images = [
         'https://qu.ax/kied.jpg',
         'https://qu.ax/kied.jpg',
         'https://qu.ax/kied.jpg',
-        'https://qu.ax/kied.jpg' // أضف عنوان URL ثالث هنا
-    ];
-
-    // اختيار عشوائي لعنوان URL من القائمة
+        'https://qu.ax/kied.jpg' // أضف عنوان URL ثالث هنا ];
+   // اختيار عشوائي لعنوان URL من القائمة
     const randomImage = images[Math.floor(Math.random() * images.length)];
-
-    // إعداد رسالة الوسائط
+// إعداد رسالة الوسائط
     var messa = await prepareWAMessageMedia({ image: { url: randomImage } }, { upload: conn.waUploadToServer });
-
-      let msg = generateWAMessageFromContent(m.chat, {
+let msg = generateWAMessageFromContent(m.chat, {
         viewOnceMessage: {
             message: {
                 interactiveMessage: {
                     body: {
-                        text: `
-╭──────────────╮
+                        text: `╭──────────────╮
  ◉—⌈مــرحــبــا ${m.pushName}⌋—◉                                          
 ╰──────────────╯
 ╮─❮ مـعـلـومـات الـبـوت ❯ ─⊷❍
