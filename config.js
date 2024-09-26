@@ -14,15 +14,15 @@ global.authFile = `Session`;
 global.isBaileysFail = false
 
 global.owner = [
-  ['201145624848', '𝗦𝗔𝗬𝗘𝗗-𝗦𝗛𝗔𝗪𝗔𝗭𝗔', true]
+  ['201098829097', 'ESCONAR-BOT', true]
 ];
 
-global.ownername = '𝚂𝙰𝚈𝙴𝙳-𝚂𝙷𝙰𝚆𝙰𝚉𝙰';
-global.ownernumber = '201145624848';
+global.ownername = 'Es Co Naaa r ، iL P aaa reD';
+global.ownernumber = '201098829097';
 global.myid = '201145624848@s.whatsapp.net';
   
-global.suittag = ['201145624848', '201204885212'];
-global.prems = ['201145624848', '201204885212'];
+global.suittag = ['201098829097', 'ESCONAR BOT'];
+global.prems = ['201098829097', 'ESCONAR'];
 
 global.packname = '𝗦𝗔𝗬𝗘𝗗-𝗦𝗛𝗔𝗪𝗔𝗭𝗔';
 global.author = '𝐒𝐇𝐀𝐖𝐀𝐙𝐀-𝐁𝐎𝐓';
@@ -111,7 +111,7 @@ global.waitt = '*━────── •●• ──────━*\n> [ �
 global.waittt = '*━────── •●• ──────━*\n> [ 🧞 ] جاري التحميل ...\n*━────── •●• ──────━*';
 global.waitttt = '*[*━────── •●• ──────━*\n> [ 🧞 ] جاري التحميل ...\n*━────── •●• ──────━*';
 
-global.nomorown = '201145624848';
+global.nomorown = '201098829097';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 
 global.cmenut = '❖––––––『';
