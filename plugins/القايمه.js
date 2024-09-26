@@ -1,6 +1,5 @@
 import { prepareWAMessageMedia, generateWAMessageFromContent, getDevice } from '@whiskeysockets/baileys';
 import moment from 'moment-timezone';
-
 function clockString(ms) {
     let h = Math.floor(ms / 3600000);
     let m = Math.floor(ms / 60000) % 60;
