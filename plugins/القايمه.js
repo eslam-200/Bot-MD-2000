@@ -20,7 +20,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 
     if (!(who in global.db.data.users)) throw `✳️ لم يتم العثور على المستخدم في قاعدة البيانات الخاصة بي`;
 
-    let videoUrl = 'https://telegra.ph/file/09e09b9e0376dcff65ccc.mp4';
+    let videoUrl = 'https://qu.ax/dSzQF.mp4';
     let user = global.db.data.users[who];
     let { name, exp, diamond, lastclaim, registered, regTime, age, level, role, warn } = user;
     let { min, xp, max } = xpRange(user.level, global.multiplier);
@@ -30,7 +30,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
     let sn = createHash('md5').update(who).digest('hex');
     let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length;
     let more = String.fromCharCode(8206);
-    await conn.sendMessage(m.chat, { react: { text: '⏳', key: m.key } });
+    await conn.sendMessage(m.chat, { react: { text: '🫦', key: m.key } });
     let readMore = more.repeat(850);
     let taguser = '@' + m.sender.split("@s.whatsapp.net")[0];
     
@@ -347,7 +347,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
      mentions: [m.sender,global.conn.user.jid],
      gifPlayback: true,gifAttribution: 0
        }, { quoted: m });
-       await conn.sendMessage(m.chat, { react: { text: '🗃️', key: m.key } });
+       await conn.sendMessage(m.chat, { react: { text: '😜', key: m.key } });
    };
    handler.help = ['main']
    handler.command = ['الاوامر','اوامر','منيو','menu']
