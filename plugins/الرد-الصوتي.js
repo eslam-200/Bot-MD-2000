@@ -22,14 +22,14 @@ handler.all = async function(m) {
   if (/^بوت|بوتي|البوت$/i.test(m.text) && !chat.isBanned) {
     conn.sendPresenceUpdate('recording', m.chat);
     
-    m.conn.sendMessage(m.chat, {text: `*شبيك لبيك اسكونر بين اديك 🧞*`}, {quoted: fk});
+    m.conn.sendMessage(m.chat, {text: `*شبيك لبيك حموو بين اديك 🧞*`}, {quoted: fk});
     
     m.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: fk});
     
   } else if (/^تست$/i.test(m.text) && !chat.isBanned) {
     conn.sendPresenceUpdate('recording', m.chat);
     
-    m.conn.sendMessage(m.chat, {text: `*اهو ياعم اسكونر لسه ممتش 🧞*`}, {quoted: fk});
+    m.conn.sendMessage(m.chat, {text: `*اهو ياعم حموو لسه ممتش 🧞*`}, {quoted: fk});
     
     m.conn.sendMessage(m.chat, {audio: {url: vn2}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: fk});
    
