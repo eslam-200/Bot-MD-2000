@@ -2,7 +2,7 @@ import fetch from 'node-fetch'
 import fs from 'fs'
 import jimp from 'jimp'
 let handler = async (m, { conn, usedPrefix, text, args, command }) => {
-let wm = '◄⏤͟͟͞Es Co Naaa r ، iL P aaa reD'
+let wm = '◄⏤Es Co Naaa r ، iL P aaa reD'
 
 
 let fakecontact = { 'key': { 'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': '𝐒𝐇𝐀𝐖𝐀𝐙𝐀-𝐁𝐎𝐓' }, 'message': { 'contactMessage': { 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` } }, 'participant': '0@s.whatsapp.net' };
@@ -31,14 +31,14 @@ let faketext = {
     remoteJid: 'status@broadcast'
   },
   message: {
-    conversation: 'اسكونر توينز سونيك ❤️🧞'
+    conversation: 'اسكونر الباشا ❤️🧞'
   }
 };
 
 let fake = [fakegif, fakecontact, mkey, fakelocation, faketext]
 let vn = fake[Math.floor(Math.random() * fake.length)];
 
-let poster = ['https://qu.ax/kied.jpg', 'https://qu.ax/kied.jpg', 'https://qu.ax/kied.jpg', 'https://qu.ax/kied.jpg']
+let poster = ['https://qu.ax/kied.jpg', 'https://qu.ax/fgvlu.jpg', 'https://qu.ax/kied.jpg', 'https://qu.ax/PVvVL.jpg']
 let vn2 = poster[Math.floor(Math.random() * poster.length)];
 
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
@@ -47,14 +47,14 @@ let bjir = 'https://i.imgur.com/RbaRjrb.jpeg'
 let name = await conn.getName(who)
 
 let delay = time => new Promise(res => setTimeout(res, time))
-await conn.sendContact(m.chat, [[`201098829097` + `@s.whatsapp.net`, wm]], vn, {
+await conn.sendContact(m.chat, [[`201098829097` + `01146423396`+`0@s.whatsapp.net`, wm]], vn, {
  contextInfo: { 
  forwardingScore: 2023,
 isForwarded: false, 
  externalAdReply: {  
- title: '𝑇𝛨𝛯 𝐿𝛩𝛻𝛯𝐿𝑌 𝛩𝑊𝛮𝛯𝑅 𝛩𝐹', 
- body: '𝕊ℍ𝔸𝕎𝔸ℤ𝔸-𝔹𝕆𝕋', 
- sourceUrl: 'https://whatsapp.com/channel/0029VanZ7ZtDOQIcgSUp5K3Z',
+ title: 'ESCONAR ELFAGER BOT MD', 
+ body: 'ESCONAR-BOT-MD', 
+ sourceUrl: 'https://whatsapp.com/channel/0029VasNaVr7T8bPaW6E1Z1u',
  thumbnail: vn2,
  thumbnailUrl: vn2, 
  mediaType: 1,
