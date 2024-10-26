@@ -20,7 +20,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 
     if (!(who in global.db.data.users)) throw `✳️ لم يتم العثور على المستخدم في قاعدة البيانات الخاصة بي`;
 
-    let videoUrl = 'https://qu.ax/dSzQF.mp4';
+    let videoUrl = 'https://qu.ax/sOmoK.mp4';
     let user = global.db.data.users[who];
     let { name, exp, diamond, lastclaim, registered, regTime, age, level, role, warn } = user;
     let { min, xp, max } = xpRange(user.level, global.multiplier);
